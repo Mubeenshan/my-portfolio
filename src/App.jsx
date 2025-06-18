@@ -10,7 +10,7 @@ const App = () => {
   return (
     <div className="bg-[#131212] text-white font-[Poppins] scroll-smooth">
       {/* Header */}
-      <header className="fixed w-full top-0 left-0 z-50 flex justify-between items-center px-10 py-5 bg-black/90 shadow-lg backdrop-blur-md">
+      <header className="fixed w-full top-0 left-0 z-50 flex justify-between items-center px-10 py-5 bg-black/90 shadow-lg backdrop-blur-md scroll-smooth">
         <a
           href="#home"
           className="text-3xl font-extrabold text-white hover:scale-105 transition-transform duration-300"
@@ -102,11 +102,11 @@ const App = () => {
 
         </div>
 
-        <div className="flex-1 flex justify-center">
+        <div className="flex-1 flex justify-center min-w-16">
           <img
-            src="image.jpg.jpg"
+            src="mubin.jpg"
             alt="Mubeen"
-            className="w-80 h-83 object-cover rounded-full shadow-[0_0_25px_#00ffee] hover:scale-105 transition-transform duration-500 hover:animate-glow"
+            className="w-80 h-80 object-cover rounded-full shadow-[0_0_25px_#00ffee] hover:scale-110 transition-transform duration-500 hover:animate-glow"
             style={{ boxShadow: '0 0 25px #00ffee' }}
           />
         </div>
