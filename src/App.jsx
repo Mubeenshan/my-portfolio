@@ -104,7 +104,7 @@ const App = () => {
 
         <div className="flex-1 flex justify-center min-w-16">
           <img
-            src="mubin.jpg"
+            src="mubeen.jpg"
             alt="Mubeen"
             className="w-80 h-80 object-cover rounded-full shadow-[0_0_25px_#00ffee] hover:scale-110 transition-transform duration-500 hover:animate-glow"
             style={{ boxShadow: '0 0 25px #00ffee' }}
